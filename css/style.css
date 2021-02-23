@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset css */
+
+.header{
+    background: white;
+    height: 7rem;
+    padding: 1rem;
+}
+.fa-phone-alt{
+    font-size: larger;
+    text-align: center;
+}
+.phone-icon{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.contact{
+    color: #004274;
+}
+.nav-bar{
+    background: #004274;
+    min-height: 3.5rem;
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+    /* position: fixed; */
+    width: 100%;
+    
+}
+.nav-item{
+    border: 1px solid #005890;
+    height: 3.5rem;
+    padding: 1rem;
+    float: left;
+    
+}
+.nav-item:hover{
+    cursor: pointer;
+    background: #004d82;
+    color: #00aeff;
+
+}
+.banner1{
+    height: 100%;
+    
+}
+.img-banner{
+    height: 100%;
+    width: 100%;
+}
+.title{
+    color: white;
+    text-align: center;
+    
+}
+.hot{  
+    margin: 6rem 0 !important;
+}
+.hot-title{
+    text-align: center;
+}
+.hot-title h3{
+    font-size: 2rem;
+    
+}
+.hot-title p{
+    font-size: 1rem;
+    color: #7a7a7a;
+}
+.hot-content{ 
+   text-align: center;
+
+}
+.card{
+    display: inline-block !important;
+   
+}
+.footer{
+    background: #004274;
+    height: 8rem;
+    padding: 2rem;
+}
+.coppy-right{
+    color: white;
+}
