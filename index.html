@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,133 +11,205 @@
     <link rel="stylesheet" href="./bootstrap-5.0.0-beta2-dist/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
 
 </head>
+
 <body>
     <script src="./js/jquery-3.2.1.slim.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./bootstrap-5.0.0-beta2-dist/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
-        <!-- scrip -->
-       <div class="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="./img/logo.png" alt="">
-                    </div>
-                    <div class="col-3 offset-7 contact">
-                       <div class="row">
+    <!-- scrip -->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="col-3 offset-7 contact">
+                    <div class="row">
                         <div class="col-3 phone-icon">
                             <i class="fas fa-phone-alt"></i>
                         </div>
                         <div class="col-9">
                             <p><strong>0961 769 472</strong></p>
-                            <p class="mail">khanhpoly@gmail.com</p> 
+                            <p class="mail">khanhpoly@gmail.com</p>
                         </div>
-                       </div>
-                      
                     </div>
+
                 </div>
             </div>
-       </div>
-       <div class="nav-bar">
-            <div class="container">
-               <div class="menu">
+        </div>
+    </div>
+    <div class="nav-bar">
+        <div class="container">
+            <div class="menu">
                 <div class="nav-item">Trang chủ</div>
                 <div class="nav-item">MẶT BẰNG CHO THUÊ</div>
                 <div class="nav-item">CHUNG CƯ</div>
                 <div class="nav-item">LIÊN HỆ CHÚNG TÔI</div>
-               </div>
             </div>
-       </div>
-       <div class="banner position-relative">
+        </div>
+    </div>
+    <div class="banner position-relative">
         <div class="banner1">
-            <img class="img-banner" src="./img/banner.jpg"  alt="">
+            <img class="img-banner" src="./img/banner.jpg" alt="">
         </div>
         <div class="title position-absolute top-50 start-50 translate-middle ">
             <h1>KÊNH THÔNG TIN BĐS SỐ 1 VIỆT NAM</h1>
             <p>Tìm kiếm phòng trọ, chung cư, mặt bằng cho thuê, hoàn toàn miễn phí</p>
         </div>
-
-       </div>
-       <div class="content">
-         <div class="container">
+        <div class="filter position-absolute top-100 start-50 translate-middle">
+            <div class="top-filter ">
+                <p style="margin: 0;">Lọc theo yêu cầu</p>
+            </div>
+            <div class="main-filter clearfix">
+                <div class="left main-filter-item">
+                    <p>Loại mặt bằng</p>
+                    <select class="form-control" id="sel1">
+                        <option>Chung cư</option>
+                        <option>Chung cư mini</option>
+                        <option>Mặt bằng choi thuê</option>
+                        <option>Nhà đất</option>
+                      </select>
+                </div>
+                <div class=" left main-filter-item">
+                    <p>Loại mặt bằng</p>
+                    <select class="form-control" id="sel1">
+                        <option>Chung cư</option>
+                        <option>Chung cư mini</option>
+                        <option>Mặt bằng choi thuê</option>
+                        <option>Nhà đất</option>
+                      </select>
+                </div>
+                <div class="left main-filter-item">
+                    <p>Loại mặt bằng</p>
+                    <select class="form-control" id="sel1">
+                        <option>Chung cư</option>
+                        <option>Chung cư mini</option>
+                        <option>Mặt bằng choi thuê</option>
+                        <option>Nhà đất</option>
+                      </select>
+                </div>
+                <div class="left main-filter-item">
+                    <p>Loại mặt bằng</p>
+                    <select class="form-control" id="sel1">
+                        <option>Chung cư</option>
+                        <option>Chung cư mini</option>
+                        <option>Mặt bằng choi thuê</option>
+                        <option>Nhà đất</option>
+                      </select>
+                </div>
+                <div class="search">
+                    <button class="btn-search btn btn-primary">Tìm kiếm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
             <div class="row">
                 <div class="hot">
                     <div class="hot-title">
                         <h3>Mặt Bằng Đang Hot</h3>
-                        <p>Mặt bằng đẹp, vị trí thuậ lợi, đang cho thuê gấp</p> 
+                        <p>Mặt bằng đẹp, vị trí thuậ lợi, đang cho thuê gấp</p>
                     </div>
                     <div class="hot-content  ">
                         <div class="card" style="width: 25rem">
-                            <img src="./img/house1.png" class="card-img-top" alt="...">
+                            <div class="img-card position-relative"> 
+                                <div class="price-home position-absolute bottom-0 start-0">
+                                    <p>200,000VNĐ</p>
+                                </div>
+                                <div class="tool-card position-absolute bottom-0 end-0">
+                                    <i class="fas fa-plus"></i>
+                                    <i class="fas fa-search"></i>
+                                    <i class="far fa-heart"></i>
+
+                                </div>
+                                <div class="status-home position-absolute top-0 end-0"><p>CÒN TRỐNG</p></div>
+                                <img src="./img/house1.png" class="card-img-top" alt="..."></div>
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Mặt bằng Trung Kính</h5>
+                                <p class="card-text">Mặt bằng cho thuê</p>
+
                             </div>
-                          </div>
-                          <!-- card 1 -->
-                          <div class="card" style="width: 25rem;">
-                            <img src="./img/house1.png" class="card-img-top" alt="...">
+                        </div>
+                        <!-- card 1 -->
+                        <div class="card" style="width: 25rem;">
+                            <div class="img-card position-relative"> 
+                                <div class="price-home position-absolute bottom-0 start-0">
+                                    <p>200,000VNĐ</p>
+                                </div>
+                                <div class="tool-card position-absolute bottom-0 end-0">
+                                    <i class="fas fa-plus"></i>
+                                    <i class="fas fa-search"></i>
+                                    <i class="far fa-heart"></i>
+
+                                </div>
+                                <div class="status-home position-absolute top-0 end-0"><p>CÒN TRỐNG</p></div>
+                                <img src="./img/house1.png" class="card-img-top" alt="..."></div>
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Mặt bằng Trung Kính</h5>
+                                <p class="card-text">Mặt bằng cho thuê</p>
+
                             </div>
-                          </div>
-                          <!-- card 2 -->
-                          
+                        </div>
+                        <!-- card 2 -->
+
                     </div>
                 </div>
             </div>
             <div class="list-home">
                 <div class="hot-title">
                     <h3>Chung Cư Cho Thuê</h3>
-                    <p>Chung cư đẹp, vị trí thuận lợi, đang cho thuê gấp.</p> 
+                    <p>Chung cư đẹp, vị trí thuận lợi, đang cho thuê gấp.</p>
                 </div>
                 <div class="hot-content  ">
                     <div class="card" style="width: 23rem">
                         <img src="./img/house1.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+
                         </div>
-                      </div>
-                      <!-- card 1 -->
-                      <div class="card" style="width: 23rem">
+                    </div>
+                    <!-- card 1 -->
+                    <div class="card" style="width: 23rem">
                         <img src="./img/house1.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+
                         </div>
-                      </div>
-                      <!-- card 2 -->
-                      <div class="card" style="width: 23rem">
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card" style="width: 23rem">
                         <img src="./img/house1.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+
                         </div>
-                      </div>
-                      <!-- card 3 -->
-                      
+                    </div>
+                    <!-- card 3 -->
+
                 </div>
             </div>
-         </div>
-       </div>
-       <div class="footer">
-           <div class="container">
-               <div class="row">
-                   <div class="col-4">
-                       <p class="coppy-right">© Thuematbang24h.com - All rights reserved
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p class="coppy-right">© Thuematbang24h.com - All rights reserved
                     </p>
-                   </div>
-                   <div class="col-3 offset-5">
-                       <img src="./img/logo2.png"  alt="">
-                   </div>
-               </div>
-           </div>
-       </div>
+                </div>
+                <div class="col-3 offset-5">
+                    <img src="./img/logo2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

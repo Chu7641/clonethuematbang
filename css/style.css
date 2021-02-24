@@ -111,6 +111,9 @@ table {
     font-size: 1rem;
     color: #7a7a7a;
 }
+.content{
+    background: #f7f8f9;
+}
 .hot-content{ 
    text-align: center;
 
@@ -126,4 +129,76 @@ table {
 }
 .coppy-right{
     color: white;
+}
+.img-card {
+   
+    opacity: 0.8;
+}
+.img-card:hover{
+    opacity: 1;
+}
+.card-body{
+    text-align: left;
+}
+.card-title:hover{
+    cursor: pointer;
+    color: royalblue;
+}
+.tool-card{
+    margin: 1rem;
+    background: #383838;
+    color: white;
+    padding: 0 0.3rem;
+    border-radius: 3px;
+    letter-spacing: 0.3rem;
+}
+.tool-card i{
+    cursor: pointer;
+}
+.price-home{
+    margin: 0 1rem;
+    color: white;
+    font-weight: 600;
+}
+.status-home p{
+    color: white;
+    background: #383838;
+    margin: 1rem;
+    padding: 0 0.3rem;
+    border-radius: 3px;
+    font-size: small;
+}
+.filter{
+    border-radius: 5px;
+    width: 60rem;
+    height: 8rem;
+    background: white;
+    padding: 0;
+}
+.top-filter{
+    background: white;
+    border-radius: 5px 5px 0 0;
+    padding: 0.5rem ;
+    width: 9rem;
+    margin: 0;
+    font-weight: 600;
+    position: relative;
+    top: -25%;
+    left: 24.5rem; 
+}
+.left{
+    float: left;
+}
+.main-filter{
+    text-align: center;
+}
+.main-filter-item{
+    padding: 0 1rem;
+}
+.main-filter-item p{
+    text-align:left;
+}
+.btn-search{ 
+    width: 9rem!important;
+    margin-top: 2.5rem;
 }
